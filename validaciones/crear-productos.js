@@ -11,7 +11,7 @@ form.addEventListener("submit", (evento) => {
     const categoria = document.querySelector("[data-categoria]").value;
 
     productoServices.creaProductos(nombre, url, precio, description, categoria).then((respuesta) => {
-        window.location.href = "../screens/index.html";
+        window.location.href = "../index.html";
         console.log(respuesta);
     })
     .catch((err) => {
