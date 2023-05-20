@@ -1,0 +1,161 @@
+.general-products {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.movile{
+    display: none;
+}
+
+.products-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 150px 0px 150px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.product-button {
+    background-color: var(--azul-destaque);
+    border: none;
+    color: var(--texto-destaque);
+    height: 51px;
+    width: 180px;
+}
+
+.products-main {
+    height: 100%;
+    padding: 0px 150px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.product-name {
+    color: #464646;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.precio {
+    color: #464646;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+img {
+    width: 176px;
+    height: 174px;
+}
+
+.container {
+    position: relative;
+}
+
+.container .editImage {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+.container .deleteImage {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.editImage, .deleteImage {
+    width: 24px;
+    height: 24px;
+}
+
+.buttonDelete, .buttonEdit {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+h1, p {
+    margin: 8px 0px 8px 0px;
+}
+
+@media (max-width:768px) {
+
+    header {
+        padding: 16px 32px;
+    }
+    
+    .logo-search {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-search input {
+        width: 272px;
+        padding: 0;
+    }
+
+    .movile {
+        display: none;
+    }
+
+    .products-title {
+        padding: 25px 5px 5px 2px;
+    }
+    
+    .products-main {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .producto {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:360px) {
+    .logo-search {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo-search input{
+        display: none;
+    }
+
+    .movile{
+        display: flex;
+    }
+
+    .movile img {
+        width: 17.05px;
+        height: 17.06px;
+    }
+    
+    .general-products {
+        align-items: flex-start;
+        padding: 19px;
+    }
+
+    .products-title {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+    }
+
+    .products-main {
+        align-self: flex-start;
+        gap: 16px;
+    }
+}

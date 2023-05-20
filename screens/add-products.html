@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es-LA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../asset/img/Logo e.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../asset/style.css">
+    <link rel="stylesheet" href="../asset/add-product.css">
+    <title>E Commerce</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-search">
+                <div class="logo">
+                    <a href="../screens/index.html"><img src="../asset/img/Logo e.png" alt="logo"></a>
+                    <p class="logo-color">E</p>
+                    <p>Commerce</p>
+                </div>
+                <input i type="text" placeholder="¿Qué deseas buscar?">
+            </div>
+            <div class="menu">
+                <a href="add-products.html"><button type="submit">Menú administrador</button></a>
+            </div>
+            <div class="movile">
+                <img src="../asset/img/Icono.svg" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <main class="section">
+        <section class="product-add">
+            <div class="product-add_title">Agregar nuevo producto</div>
+                <form class="form-cadrastro" data-form>
+                    <input type="text" class="add-product_input_url" placeholder="URL de imagen" required data-url>
+                    <input type="text" class="add-product_name" placeholder="Nombre de producto" required data-nombre>
+                    <input type="text" class="add-product_price" placeholder="Precio del Producto" required data-precio>
+                    <input type="text" class="add-product_category" placeholder="Categoria" required data-categoria>
+                    <textarea type="text" class="product-edit_texta__descript" data-description placeholder="Descripcion del producto"></textarea>
+                    <button type="submit" class="product-add_btn">Agregar </button>
+        </form>
+        </section>
+    </main>
+
+
+<main class="contacto">
+    <div class="computer">
+    <div class="tablet">
+    <div class="referencia">
+        <img src="../asset/img/Logo e.png" alt="Logo">
+        <p class="logo-color_referencia">E</p>
+        <p>Commerce</p>
+    </div>
+    </div>
+    <div class="link-utilities">
+        <a href="">¿Quiénes somos?</a>
+        <a href="">Política de privacidad</a>
+        <a href="">Programa de fidelidad</a>
+        <a href="">Nuestras tiendas</a>
+        <a href="">Quiero ser franquiciado</a>
+        <a href="">Anúncie aquí</a>
+    </div>
+    </div>
+    <div class="form">
+        <p>Hable con nosotros</p>
+        <div class="label-float">
+            <input type="text" name="Nombre" id="Nombre" class="input-nombre" placeholder="">
+            <label for="Nombre" class="label-nombre">Nombre</label>
+            <textarea name="mensaje" id="msg" cols="10" rows="10" placeholder="Escriba su mensaje"></textarea>
+            <button>Enviar Mensaje</button>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="rodapie">
+        <h3>Desarrollado por &copy;Bartolo del Rosario M.</h3>
+        <h2>2023</h2>
+    </div>
+</footer>
+<script type="module" src="../validaciones/crear-productos.js"></script>
+</body>
+</html>

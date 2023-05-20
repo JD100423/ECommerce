@@ -1,0 +1,195 @@
+{
+  "producto": [
+    {
+      "nombre": "Boeing 737",
+      "imageUrl": "https://th.bing.com/th/id/R.461127f7065904aba77a946aca2c8905?rik=m7QEd4UHDk6atQ&riu=http%3a%2f%2fwww.airlinereporter.com%2fwp-content%2fuploads%2f2012%2f03%2foutsideBBJ737.jpg&ehk=OH%2f3KjYAahl1BEfpsKva0ADl1S8r2C7%2fd%2f5v%2fLk4qXU%3d&risl=&pid=ImgRaw&r=0",
+      "precio": "7000000",
+      "id": 1,
+      "description": "Es ideal para transporte comercial.",
+      "categoria": "Avion"
+    },
+    {
+      "nombre": "Boeing MAX",
+      "imageUrl": "https://www.espacemanager.com/sites/default/files/field/image/boeing_737_max.jpg",
+      "precio": "9000000",
+      "id": 2,
+      "description": "Avion, comercial espacioso y comodo.",
+      "categoria": "Avion"
+    },
+    {
+      "nombre": "Boeing 787",
+      "imageUrl": "https://th.bing.com/th/id/R.3dcf26c8ae655f61ec91cda3de4a6f27?rik=erPxKpwfe%2fh0UQ&pid=ImgRaw&r=0",
+      "precio": "10000000",
+      "id": 3,
+      "description": "Avion comercial lujoso y espacioso",
+      "categoria": "Avion"
+    },
+    {
+      "nombre": "Global 7000",
+      "imageUrl": "https://th.bing.com/th/id/R.e748a2b605a9fd96ca4c6914e77612dc?rik=gpi4CtMzBkRhAA&riu=http%3a%2f%2fluxurylaunches.com%2fwp-content%2fuploads%2f2017%2f10%2f1-8.jpg&ehk=c9AnrU%2bXU321sUtjWIlgnEh%2fZxcaL5FnMbgXJIwt4Bk%3d&risl=&pid=ImgRaw&r=0",
+      "precio": "9000000",
+      "id": 4,
+      "description": "Jet privado, lujoso espacioso y ejecutivo.",
+      "categoria": "Jets"
+    },
+    {
+      "nombre": "Falcon 200",
+      "imageUrl": "https://cdn.weasyl.com/~shafdogg/submissions/482060/4294054588a44eb4e3a533f413228e9a8606fd0d1d5771bbf15044244fa25f66/shafdogg-hawker-aircorp-falcon-200.jpg?download",
+      "precio": "13000000",
+      "id": 5,
+      "description": "Jet privado, para familia de 5 personas espacioso y lujoso",
+      "categoria": "Jets"
+    },
+    {
+      "nombre": "Embraer 505",
+      "imageUrl": "https://cdn.jetphotos.com/full/5/76396_1519832437.jpg",
+      "precio": "25000000",
+      "id": 6,
+      "description": "Jet Embraer ejecutivo",
+      "categoria": "Jets"
+    },
+    {
+      "nombre": "Airbus A380",
+      "imageUrl": "https://th.bing.com/th/id/R.f3072b2f386948b36d089c3723885947?rik=dWw58LM7evhdDQ&pid=ImgRaw&r=0",
+      "precio": "50000000",
+      "id": 7,
+      "description": "Avion comercial europeo, espacioso y lujoso ideal para carga.",
+      "categoria": "Avion"
+    },
+    {
+      "nombre": "Airbus A320",
+      "imageUrl": "https://th.bing.com/th/id/R.a40c7273a8bfb44a5b79616c3b1a8d5c?rik=5lyCiTBLgCp6CA&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f2%2f24%2fLufthansa_Airbus_A320-211_D-AIQT_01.jpg&ehk=0jEaU9fTEtiz%2bKfyFSlDBenZMSqzlCE6TWF63eaOPTk%3d&risl=1&pid=ImgRaw&r=0",
+      "precio": "52000000",
+      "description": "Espacioso y adaptado al viaje comercial.",
+      "id": 8,
+      "categoria": "Avion"
+    },
+    {
+      "nombre": "Aircraft-G650",
+      "imageUrl": "https://th.bing.com/th/id/R.3db68f6a9e83e594e92817b58a57373f?rik=XAaTx9OkpXFUDQ&riu=http%3a%2f%2fwww.rsfmagazine.com%2fwp-content%2fuploads%2f2012%2f10%2fGulfstream-G650-MOST-EXPENSIVE-JETS-5.jpg&ehk=AYpc1wgBPyJnZIPVhmmzjIgYiv%2b4pxQolkOSODwz400%3d&risl=&pid=ImgRaw&r=0",
+      "precio": "90000000",
+      "description": "Jet lujoso y espacioso para ejecutivos y empresarios.",
+      "id": 9,
+      "categoria": "Jets"
+    },
+    {
+      "nombre": "Boeing 747",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/747-8I_%28N6067E%29_takeoff.jpg/280px-747-8I_%28N6067E%29_takeoff.jpg",
+      "precio": "55000000",
+      "description": "Avión comercial de gran capacidad para empresas y espacioso en aeropuertos.",
+      "categoria": "Avion",
+      "id": 10
+    },
+    {
+      "nombre": "Sukhoi S-47",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sukhoi_T-50_Beltyukov.jpg",
+      "precio": "117000000",
+      "description": "Jet para la milicia.",
+      "categoria": "Jets Militares",
+      "id": 11
+    },
+    {
+      "nombre": "B-2A Spirit",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/B-2_Spirit_bombing%2C_1994.jpg",
+      "precio": "200000000",
+      "description": "Caza de ataque.",
+      "categoria": "Jets Militares",
+      "id": 12
+    },
+    {
+      "nombre": "Sr Tucanos",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Aeronave_A-29_Super_Tucano_em_voo_sobre_a_Floresta_Amaz%C3%B4nica.jpg/1280px-Aeronave_A-29_Super_Tucano_em_voo_sobre_a_Floresta_Amaz%C3%B4nica.jpg",
+      "precio": "250000000",
+      "description": "Caza de combate especial",
+      "categoria": "Jets Militares",
+      "id": 13
+    },
+    {
+      "nombre": "EF-111A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/EF-111A_Raven.jpg/1920px-EF-111A_Raven.jpg",
+      "precio": "200000000",
+      "description": "Caza militar moderno",
+      "categoria": "Jets Militares",
+      "id": 14
+    },
+    {
+      "nombre": "Perd. C-295",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/CASA_C-295MPA_16710_%289425763160%29.jpg/1280px-CASA_C-295MPA_16710_%289425763160%29.jpg",
+      "precio": "300000000",
+      "description": "Utilizado para patrullaje militar.",
+      "categoria": "Jets Militares",
+      "id": 15
+    },
+    {
+      "nombre": "Airbus A400M",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/54%2B01_German_Air_Force_Airbus_A400M_ILA_Berlin_2016_12.jpg/1920px-54%2B01_German_Air_Force_Airbus_A400M_ILA_Berlin_2016_12.jpg",
+      "precio": "500000000",
+      "description": "Utilizado para cargas y transporte militar",
+      "categoria": "Jets Militares",
+      "id": 16
+    },
+    {
+      "nombre": "Over2000",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/OO-FLN.JPG",
+      "precio": "90000000",
+      "description": "Jets para ejecutivos.",
+      "categoria": "Jets",
+      "id": 17
+    },
+    {
+      "nombre": "Learjet 23",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Air_Zoo_Learjet_II.JPG/1280px-Air_Zoo_Learjet_II.JPG",
+      "precio": "15000000",
+      "description": "Jets privado personal de 1963.",
+      "categoria": "Jets",
+      "id": 18
+    },
+    {
+      "nombre": "Tu-204",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Tu-204SM.jpg",
+      "precio": "10000000",
+      "description": "Avion comercial lujoso y espacioso.",
+      "categoria": "Avion",
+      "id": 19
+    },
+    {
+      "nombre": "GS-G700",
+      "imageUrl": "https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2022/08/09/g700-avion.jpeg",
+      "precio": "25000000",
+      "description": "Jets lujoso para negocios.",
+      "categoria": "Jets",
+      "id": 20
+    },
+    {
+      "nombre": "F-39",
+      "imageUrl": "https://cdn2.img.sputniknews.lat/img/07e6/0c/1b/1134025777_0:160:3073:1888_1920x0_80_0_0_ca9cf1d3e80dc189341e76107ec29858.jpg.webp",
+      "precio": "30000000",
+      "description": "Jets militar avanzado.",
+      "categoria": "Jets Militares",
+      "id": 21
+    },
+    {
+      "nombre": "Gripen NG",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Saab_Gripen_NG.png/800px-Saab_Gripen_NG.png",
+      "precio": "35000000",
+      "description": "Jets militar.",
+      "categoria": "Jets Militares",
+      "id": 22
+    },
+    {
+      "nombre": "Bombardier-CH650",
+      "imageUrl": "https://img.aeroexpo.online/es/images_ar/photo-mg/169445-10188908.jpg",
+      "precio": "50000000",
+      "description": "Jets lujoso, con espacio y cavidad.",
+      "categoria": "Jets",
+      "id": 23
+    }
+  ],
+  "usuarios": [
+    {
+      "email": "admin@alura.com",
+      "password": "251503",
+      "id": "1"
+    }
+  ]
+}

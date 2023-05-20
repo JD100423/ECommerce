@@ -1,0 +1,236 @@
+.section {
+    background: rgb(245, 245, 245);
+    padding: 16px;
+}
+.movile {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffff;
+    color: #2A7AE4;
+    border: solid 1px #2A7AE4;
+    font-weight: 600;
+}
+
+.mobile-search{
+    display: flex;
+}
+.btn{
+    font-weight: 600;
+    color: #2A7AE4;
+    font-size: 1rem;
+    border: solid 1px #2A7AE4;
+    background: #ffffff;
+    padding: 10px 50px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color: #ffffff;
+    background-color: #2A7AE4;
+}
+.btn-administrador{
+    padding: 15px;
+}
+.mobile-search-icon{
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.product-add_title {
+    display: flex;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.add-product_input_url, .add-product_name, .add-product_price, .product-edit_texta__descript, .add-product_category {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 12px 13px 12px;
+    border-bottom: 1px solid var(--cor-secundaria);
+    border-radius: 4px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+    border: solid black 1px;
+}
+
+.product-edit_texta__descript {
+    height: 81px;
+    font-family: "Raleway", sans-serif;
+}
+
+.product-add_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 15%;
+    height: 51px;
+    background: #2a7ae4;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffff;
+}
+
+@media (max-width:768px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 32px;
+    }
+
+    .menu button {
+        width: 167px;
+        height: 50px;
+        margin-left: 50px;
+    }
+
+    .logo-search {
+        align-items: center;
+    }
+
+    .logo {
+        align-items: center;
+    }
+
+    .logo p{
+        font-size: 12px;
+    }
+
+    .logo-search input {
+        width: 272px;
+        height: 40px;
+        margin-left: 11px;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px; 
+       }
+    .product-add{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .product-add_title{
+        flex-direction: row;
+        align-items: center;
+
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .add-product_input_url,
+    .add-product_name,
+    .add-product_price,
+    .product-edit_texta__descript, 
+    .add-product_category {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 704px;
+        height: 56px;
+    }
+
+    .product-add_btn {
+        width: 704px;
+        height: 51px;
+    }
+
+    .tablet {
+        margin: 0 12px 0 12px;
+    }
+
+    .form {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width:360px){
+
+    header {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo-search input {
+        display: none;
+    }
+
+    .menu {
+        box-sizing: border-box;
+    }
+
+    .menu button {
+        display: flex;
+        justify-content: center;
+        padding: 12px 16px 12px 16px;
+        margin-left: 28px;
+    }
+
+    .movile {
+        display: flex;
+    }
+
+    .movile img {
+        margin-left: 17px;
+    }
+
+    .section {
+        padding: 16px;
+        width: 100%;
+    }
+    .product-add_title{
+        width: 328px;
+        height: 28px;
+    }
+
+    .add-product_input_url,
+    .add-product_name,
+    .add-product_price,
+    .product-edit_texta__descript, 
+    .add-product_category{
+        width: 328px;
+        height: 56px;
+    }
+
+    .product-add_btn {
+        width: 328px;
+        height: 56px;
+    }
+}
